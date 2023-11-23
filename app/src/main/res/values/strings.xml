@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZenFlow</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login_view">LoginView</string>
+</resources>

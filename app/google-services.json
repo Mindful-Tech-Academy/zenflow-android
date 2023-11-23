@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258208224864",
+    "project_id": "zenflow-f9f9b",
+    "storage_bucket": "zenflow-f9f9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258208224864:android:fbbc90085846ea390a9505",
+        "android_client_info": {
+          "package_name": "com.mindfultechacademy.zenflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuhSUBdy1t0DZjgUGhpovKivmdQl6X74o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
