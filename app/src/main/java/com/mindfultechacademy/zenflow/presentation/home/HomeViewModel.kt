@@ -31,8 +31,10 @@ class HomeViewModel(
                     ?.key
 
                 val asanas = asanasRepository.getAsanas()
-                mostUsedAsana.value = asanas.first { it.id == id }
-                featuredAsana.value = asanas.random()
+                mostUsedAsana.value = asanas.find { it.id == id }
+                if (asanas.isEmpty() == false ) {
+                    featuredAsana.value = asanas.random()
+                }
             }
         }
     }
